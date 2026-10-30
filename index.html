@@ -1,267 +1,262 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="uz">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Sheriyat va Men</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css" />
     <!-- Google Fonts -->
-    <link href="https://fonts.googleapis.com/css2?family=Amiri:ital,wght@0,400;0,700;1,400&family=Cinzel:wght@600;700&family=Plus+Jakarta+Sans:wght@400;500;600&display=swap" rel="stylesheet">
-</head>
-<body>
-
+    <link
+      href="https://fonts.googleapis.com/css2?family=Amiri:ital,wght@0,400;0,700;1,400&family=Cinzel:wght@600;700&family=Plus+Jakarta+Sans:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
     <div class="stars"></div>
 
     <!-- Header -->
     <header class="header">
-        <div class="logo">📜 Manga & She'riyat</div>
-        <div class="subtitle">Shom Osmoni Ostidagi Bitiklar</div>
+      <div class="logo">📜 Man va & She'riyat</div>
+      <div class="subtitle">"Muhammadamin Odilxojayev"</div>
     </header>
 
     <!-- Asosiy Banner -->
     <section class="hero">
-        <h1>Ota O'giti, Ishq va Hayot Satrlari</h1>
-        <p>Qadimiy va romantik manga estetikasi uslubidagi maxsus toplam</p>
+      <h1>Ota O'giti, Ishq va Hayot Satrlari</h1>
+      <p>Qadimiy va romantik manga estetikasi uslubidagi maxsus toplam</p>
     </section>
 
-    <!-- CSS Radio Tugmalari orqali Filterlash (JS ishlatilmagan) -->
     <div class="filter-section">
-        <input type="radio" name="category" id="cat-all" checked>
-        <input type="radio" name="category" id="cat-ota">
-        <input type="radio" name="category" id="cat-sevgi">
-        <input type="radio" name="category" id="cat-hayot">
+      <input type="radio" name="category" id="cat-all" checked />
+      <input type="radio" name="category" id="cat-ota" />
+      <input type="radio" name="category" id="cat-sevgi" />
+      <input type="radio" name="category" id="cat-hayot" />
 
-        <div class="filter-buttons">
-            <label for="cat-all" class="filter-btn">Barchasi</label>
-            <label for="cat-ota" class="filter-btn">👨‍👦 Ota / Ona</label>
-            <label for="cat-sevgi" class="filter-btn">❤️ Sevgi</label>
-            <label for="cat-hayot" class="filter-btn">🌿 Hayot & Falsafa</label>
-        </div>
+      <div class="filter-buttons">
+        <label for="cat-all" class="filter-btn">Barchasi</label>
+        <label for="cat-ota" class="filter-btn">👨‍👦 Ota / Ona</label>
+        <label for="cat-sevgi" class="filter-btn">❤️ Sevgi</label>
+        <label for="cat-hayot" class="filter-btn">🌿 Hayot & Falsafa</label>
+      </div>
 
-        <!-- She'rlar Konteyneri -->
-        <main class="grid-container">
+      <main class="grid-container">
+        <article class="poem-card item-ota">
+          <span class="badge">Ota / Ona</span>
+          <div class="manga-bubble">
+            <h2 class="poem-title">Hamadan Zorsiz Dada</h2>
+            <p class="poem-text">
+              Хамиша мен тамоним тоґирлайди ёмоним Озимни кахрамоним, хамадан
+              зорсиз дада. Бахтиёр йок менчалик, сизга килай еркалик, Суянсам
+              тоґ йелкалик, хамадан зорсиз дада. Еркак бол деб ер бол деб, Зоти
+              Тоза Шер бол деб, ей оґлим, Менданам зор бол деб, хамадан зорсиз
+              дада. Шидат кошиб шахтимга, омон болинг бахтимга, Султон болинг
+              тахтимга, хамадан зорсиз дада!
+            </p>
+          </div>
+          <div class="audio-box">
+            <span class="audio-label">🎙️ She'r Audiosi:</span>
+            <audio controls>
+              <source src="audio/ota.mp3" type="audio/mpeg" />
+              Brauzeringiz audioni qo'llab-quvvatlamaydi.
+            </audio>
+          </div>
+        </article>
 
-            <!-- 1. OTA HAQIDA -->
-            <article class="poem-card item-ota">
-                <span class="badge">Ota / Ona</span>
-                <div class="manga-bubble">
-                    <h2 class="poem-title">Hamadan Zorsiz Dada</h2>
-                    <p class="poem-text">Хамиша мен тамоним тоґирлайди ёмоним
-Озимни кахрамоним, хамадан зорсиз дада.
-Бахтиёр йок менчалик, сизга килай еркалик,
-Суянсам тоґ йелкалик, хамадан зорсиз дада.
+        <article class="poem-card item-ota">
+          <span class="badge">Ota / Ona</span>
+          <div class="manga-bubble">
+            <h2 class="poem-title">Otamning Gaplari</h2>
+            <p class="poem-text">
+              Otamning gaplari esimda hamon, O'g'lim, mayda gapga berma e'tibor.
+              Qachon shu o'gitga bo'ysunsam omon, Bo'ysunsam nolon qolganlarim
+              bor. Bolam, derdi otam, borma uzoqqa, Ibrat ol oddiy bir tokka
+              tikilib. Birgina tosh kelib urilsa tokka, Javob bersa tamom, tugar
+              to'kilib...
+            </p>
+          </div>
+          <div class="audio-box">
+            <span class="audio-label">🎙️ She'r Audiosi:</span>
+            <audio controls>
+              <source src="audio/ogit.mp3" type="audio/mpeg" />
+            </audio>
+          </div>
+        </article>
 
-Еркак бол деб ер бол деб,
-Зоти Тоза Шер бол деб, ей оґлим,
-Менданам зор бол деб, хамадан зорсиз дада.
-Шидат кошиб шахтимга, омон болинг бахтимга,
-Султон болинг тахтимга, хамадан зорсиз дада!</p>
-                </div>
-                <div class="audio-box">
-                    <span class="audio-label">🎙️ She'r Audiosi:</span>
-                    <audio controls>
-                        <source src="audio/ota.mp3" type="audio/mpeg">
-                        Brauzeringiz audioni qo'llab-quvvatlamaydi.
-                    </audio>
-                </div>
-            </article>
+        <article class="poem-card item-ota">
+          <span class="badge">Ota / Ona</span>
+          <div class="manga-bubble">
+            <h2 class="poem-title">Sizdan Baholarning qarzi bor Ona</h2>
+            <p class="poem-text">
+              Siz yurgan yoʻllar ifori siz bormagan joyni arzi bor ona,
+              Husningizdan husn olgan bahori sizdan baholarning qarzi bor ona.
+              Jamiki goʻzallik yuzingizda jam, quyoshning nurlari yuzingizdan
+              kam, Siz bu haqda oʻylamaysiz ham, sizdan baholarning qarzi bor
+              ona. Kunlar shamol kabi tinmay yeladi, yillar sochingizni oqa
+              beladi, Qarzingni ber deb aytdim keladi, sizdan baholarning qarzi
+              bor ona.
+            </p>
+          </div>
+          <div class="audio-box">
+            <span class="audio-label">🎙️ She'r Audiosi:</span>
+            <audio controls>
+              <source src="audio/ona.mp3" type="audio/mpeg" />
+            </audio>
+          </div>
+        </article>
 
-            <article class="poem-card item-ota">
-                <span class="badge">Ota / Ona</span>
-                <div class="manga-bubble">
-                    <h2 class="poem-title">Otamning O'giti</h2>
-                    <p class="poem-text">Otamning gaplari esimda hamon,
-O'g'lim, mayda gapga berma e'tibor.
-Qachon shu o'gitga bo'ysunsam omon,
-Bo'ysunsam nolon qolganlarim bor.
+        <!-- 2. SEVGI HAQIDA -->
+        <article class="poem-card item-sevgi">
+          <span class="badge">Sevgi</span>
+          <div class="manga-bubble">
+            <h2 class="poem-title">Gul Shaydosi</h2>
+            <p class="poem-text">
+              Gul bo‘lsa eding, Gul shaydosin o'zi menman. Uchratib ishq
+              nidosin, Ovozi menman. Lablaringdan mayli bo‘lsin, Bo‘ynima dor.
+              Bas shu dorga osilishga, Rozi menman...
+            </p>
+          </div>
+          <div class="audio-box">
+            <span class="audio-label">🎙️ She'r Audiosi:</span>
+            <audio controls>
+              <source src="audio/gul.mp3" type="audio/mpeg" />
+            </audio>
+          </div>
+        </article>
 
-Bolam, derdi otam, borma uzoqqa,
-Ibrat ol oddiy bir tokka tikilib.
-Birgina tosh kelib urilsa tokka,
-Javob bersa tamom, tugar to'kilib...</p>
-                </div>
-                <div class="audio-box">
-                    <span class="audio-label">🎙️ She'r Audiosi:</span>
-                    <audio controls>
-                        <source src="audio/ogit.mp3" type="audio/mpeg">
-                    </audio>
-                </div>
-            </article>
+        <article class="poem-card item-sevgi">
+          <span class="badge">Sevgi</span>
+          <div class="manga-bubble">
+            <h2 class="poem-title">Qahva</h2>
+            <p class="poem-text">
+              Кел иккимиз қаҳва ичайлик, Қаҳва мендан манзара сендан. Дарди́мизни
+              тенг бўлишайлик, Йиғлаш мендан кулуш сендан! Келганингда ёлғиз
+              эдим ман, кетар бўлсанг инсо́ф билан кет, Манзарани бутун қолдириб,
+              ёлғизлигим ярим олиб кет!
+            </p>
+          </div>
+          <div class="audio-box">
+            <span class="audio-label">🎙️ She'r Audiosi:</span>
+            <audio controls>
+              <source src="audio/qahva.mp3" type="audio/mpeg" />
+            </audio>
+          </div>
+        </article>
 
-            <article class="poem-card item-ota">
-                <span class="badge">Ota / Ona</span>
-                <div class="manga-bubble">
-                    <h2 class="poem-title">Qarzi Bor Ona</h2>
-                    <p class="poem-text">Siz yurgan yoʻllar ifori siz bormagan joyni arzi bor ona,
-Husningizdan husn olgan bahori sizdan baholarning qarzi bor ona.
-Jamiki goʻzallik yuzingizda jam, quyoshning nurlari yuzingizdan kam,
-Siz bu haqda oʻylamaysiz ham, sizdan baholarning qarzi bor ona.
-Kunlar shamol kabi tinmay yeladi, yillar sochingizni oqa beladi,
-Qarzingni ber deb aytdim keladi, sizdan baholarning qarzi bor ona.</p>
-                </div>
-                <div class="audio-box">
-                    <span class="audio-label">🎙️ She'r Audiosi:</span>
-                    <audio controls>
-                        <source src="audio/ona.mp3" type="audio/mpeg">
-                    </audio>
-                </div>
-            </article>
+        <article class="poem-card item-sevgi">
+          <span class="badge">Sevgi</span>
+          <div class="manga-bubble">
+            <h2 class="poem-title">Baxtli Bo'lolmaysan Mensiz sevgilim</h2>
+            <p class="poem-text">
+              Men seni yo‘qotdim izlayman nogoh, Yoki chin sevgimni sanayman
+              gunoh. Sen ushbu so‘zimdan bo‘lib qo‘y ogoh, Baxtli bo‘lolmaysan
+              mensiz sevgilim! Men seni yo‘qotdim ayirdi firoq, Yuragim
+              yorishmas yoqsangda chiroq. O‘zga baxt axtarib topsangda biroq,
+              Baxtli bo‘lolmaysan mensiz sevgilim!
+            </p>
+          </div>
+          <div class="audio-box">
+            <span class="audio-label">🎙️ She'r Audiosi:</span>
+            <audio controls>
+              <source src="audio/mensiz.mp3" type="audio/mpeg" />
+            </audio>
+          </div>
+        </article>
 
-            <!-- 2. SEVGI HAQIDA -->
-            <article class="poem-card item-sevgi">
-                <span class="badge">Sevgi</span>
-                <div class="manga-bubble">
-                    <h2 class="poem-title">Gul Shaydosi</h2>
-                    <p class="poem-text">Gul bo‘lsa eding,
-Gul shaydosin o'zi menman.
-Uchratib ishq nidosin,
-Ovozi menman.
+        <article class="poem-card item-sevgi">
+          <span class="badge">Sevgi</span>
+          <div class="manga-bubble">
+            <h2 class="poem-title">Taqdir Hikmati</h2>
+            <p class="poem-text">
+              Tasodiflar yo‘q bu dunyoda, Uchrashmadik ikkimiz bekor.
+              Allohimning rejalarida Biz anglamas buyuk hikmat bor. Sen qaydayu
+              men qayda edim — Guyo quyosh, guyo oy ayro. Agar Alloh
+              hohlamaganda, Bo‘larmiding qarshimda paydo? uchrashmaydi daryoga -
+              daryo qushlar sira ketmas to'qnashi borligimni bilgadek go'yo
+              kelarmiding davonlar oshib sen taqdirga ishonasanmi korganmisan
+              meni qaydadir bilsang bu taqdirderlar azizam taqdir
+            </p>
+          </div>
+          <div class="audio-box">
+            <span class="audio-label">🎙️ She'r Audiosi:</span>
+            <audio controls>
+              <source src="audio/taqdir.mp3" type="audio/mpeg" />
+            </audio>
+          </div>
+        </article>
 
-Lablaringdan mayli bo‘lsin,
-Bo‘ynima dor.
-Bas shu dorga osilishga,
-Rozi menman...</p>
-                </div>
-                <div class="audio-box">
-                    <span class="audio-label">🎙️ She'r Audiosi:</span>
-                    <audio controls>
-                        <source src="audio/gul.mp3" type="audio/mpeg">
-                    </audio>
-                </div>
-            </article>
+        <article class="poem-card item-hayot">
+          <span class="badge">Hayot</span>
+          <div class="manga-bubble">
+            <h2 class="poem-title">Piyola va Choynak</h2>
+            <p class="poem-text">
+              Garchi shuncha mag‘rur tursa ham, Piyolaga egilar choynak. Shunday
+              ekan, manmanlik nechun, Kibru havo nimaga kerak? Kamtarin bo‘l,
+              hatto bir qadam, O‘tma g‘urur ostonasidan. Piyolani inson
+              shuning-chun, O‘par doim peshonasidan.
+            </p>
+          </div>
+          <div class="audio-box">
+            <span class="audio-label">🎙️ She'r Audiosi:</span>
+            <audio controls>
+              <source src="audio/piyola.mp3" type="audio/mpeg" />
+            </audio>
+          </div>
+        </article>
+        <article class="poem-card item-hayot">
+          <span class="badge">Hayot</span>
+          <div class="manga-bubble">
+            <h2 class="poem-title">Piyola va Choynak</h2>
+            <p class="poem-text"></p>
+          </div>
+          <div class="audio-box">
+            <span class="audio-label">🎙️ She'r Audiosi:</span>
+            <audio controls>
+              <source src="audio/piyola.mp3" type="audio/mpeg" />
+            </audio>
+          </div>
+        </article>
 
-            <article class="poem-card item-sevgi">
-                <span class="badge">Sevgi</span>
-                <div class="manga-bubble">
-                    <h2 class="poem-title">Qahva va Manzara</h2>
-                    <p class="poem-text">Кел иккимиз қаҳва ичайлик,
-Қаҳва мендан манзара сендан.
-Дарди́мизни тенг бўлишайлик,
-Йиғлаш мендан кулуш сендан!
+        <article class="poem-card item-hayot">
+          <span class="badge">Hayot</span>
+          <div class="manga-bubble">
+            <h2 class="poem-title">Dunyoni Maqtema</h2>
+            <p class="poem-text">
+              Дунёни мақтама менга, азизам, Ишониб бўлмайди сохта афсунга. Агар
+              у заррача бўлса шарафли, Йиғлаб туғилмасдик кираркан унга. Дунёни
+              покиза атама, ёлғон, Ҳар они кечажак хавфу хатарда. Агар у заррача
+              бўлса покдомон, Бизни ювишмасди ундан кетарда.
+            </p>
+          </div>
+          <div class="audio-box">
+            <span class="audio-label">🎙️ She'r Audiosi:</span>
+            <audio controls>
+              <source src="audio/dunya.mp3" type="audio/mpeg" />
+            </audio>
+          </div>
+        </article>
 
-Келганингда ёлғиз эдим ман, кетар бўлсанг инсо́ф билан кет,
-Манзарани бутун қолдириб, ёлғизлигим ярим олиб кет!</p>
-                </div>
-                <div class="audio-box">
-                    <span class="audio-label">🎙️ She'r Audiosi:</span>
-                    <audio controls>
-                        <source src="audio/qahva.mp3" type="audio/mpeg">
-                    </audio>
-                </div>
-            </article>
-
-            <article class="poem-card item-sevgi">
-                <span class="badge">Sevgi</span>
-                <div class="manga-bubble">
-                    <h2 class="poem-title">Mensiz Baxtli Bo'lolmaysan</h2>
-                    <p class="poem-text">Men seni yo‘qotdim izlayman nogoh,
-Yoki chin sevgimni sanayman gunoh.
-Sen ushbu so‘zimdan bo‘lib qo‘y ogoh,
-Baxtli bo‘lolmaysan mensiz sevgilim!
-
-Men seni yo‘qotdim ayirdi firoq,
-Yuragim yorishmas yoqsangda chiroq.
-O‘zga baxt axtarib topsangda biroq,
-Baxtli bo‘lolmaysan mensiz sevgilim!</p>
-                </div>
-                <div class="audio-box">
-                    <span class="audio-label">🎙️ She'r Audiosi:</span>
-                    <audio controls>
-                        <source src="audio/mensiz.mp3" type="audio/mpeg">
-                    </audio>
-                </div>
-            </article>
-
-            <article class="poem-card item-sevgi">
-                <span class="badge">Sevgi</span>
-                <div class="manga-bubble">
-                    <h2 class="poem-title">Taqdir Hikmati</h2>
-                    <p class="poem-text">Tasodiflar yo‘q bu dunyoda,
-Uchrashmadik ikkimiz bekor.
-Allohimning rejalarida
-Biz anglamas buyuk hikmat bor.
-
-Sen qaydayu men qayda edim —
-Guyo quyosh, guyo oy ayro.
-Agar Alloh hohlamaganda,
-Bo‘larmiding qarshimda paydo?</p>
-                </div>
-                <div class="audio-box">
-                    <span class="audio-label">🎙️ She'r Audiosi:</span>
-                    <audio controls>
-                        <source src="audio/taqdir.mp3" type="audio/mpeg">
-                    </audio>
-                </div>
-            </article>
-
-            <!-- 3. HAYOT & FALSAFA -->
-            <article class="poem-card item-hayot">
-                <span class="badge">Hayot</span>
-                <div class="manga-bubble">
-                    <h2 class="poem-title">Piyola va Choynak</h2>
-                    <p class="poem-text">Garchi shuncha mag‘rur tursa ham,
-Piyolaga egilar choynak.
-Shunday ekan, manmanlik nechun,
-Kibru havo nimaga kerak?
-
-Kamtarin bo‘l, hatto bir qadam,
-O‘tma g‘urur ostonasidan.
-Piyolani inson shuning-chun,
-O‘par doim peshonasidan.</p>
-                </div>
-                <div class="audio-box">
-                    <span class="audio-label">🎙️ She'r Audiosi:</span>
-                    <audio controls>
-                        <source src="audio/piyola.mp3" type="audio/mpeg">
-                    </audio>
-                </div>
-            </article>
-
-            <article class="poem-card item-hayot">
-                <span class="badge">Hayot</span>
-                <div class="manga-bubble">
-                    <h2 class="poem-title">Dunyoni Maqtema</h2>
-                    <p class="poem-text">Дунёни мақтама менга, азизам,
-Ишониб бўлмайди сохта афсунга.
-Агар у заррача бўлса шарафли,
-Йиғлаб туғилмасдик кираркан унга.
-
-Дунёни покиза атама, ёлғон,
-Ҳар они кечажак хавфу хатарда.
-Агар у заррача бўлса покдомон,
-Бизни ювишмасди ундан кетарда.</p>
-                </div>
-                <div class="audio-box">
-                    <span class="audio-label">🎙️ She'r Audiosi:</span>
-                    <audio controls>
-                        <source src="audio/dunya.mp3" type="audio/mpeg">
-                    </audio>
-                </div>
-            </article>
-
-            <article class="poem-card item-hayot">
-                <span class="badge">Hayot</span>
-                <div class="manga-bubble">
-                    <h2 class="poem-title">Yuragimda Tashvish</h2>
-                    <p class="poem-text">Yuragimda tashvish tashidim doim,
-Roziman ne kulgan, kulmaganiga.
-Qo’limdan kelganin qildim, Xudoyim,
-Qo’l ochdim qo’limdan kelmaganiga.</p>
-                </div>
-                <div class="audio-box">
-                    <span class="audio-label">🎙️ She'r Audiosi:</span>
-                    <audio controls>
-                        <source src="audio/tashvish.mp3" type="audio/mpeg">
-                    </audio>
-                </div>
-            </article>
-
-        </main>
+        <article class="poem-card item-hayot">
+          <span class="badge">Hayot</span>
+          <div class="manga-bubble">
+            <h2 class="poem-title">Yuragimda Tashvish</h2>
+            <p class="poem-text">
+              Yuragimda tashvish tashidim doim, Roziman ne kulgan, kulmaganiga.
+              Qo’limdan kelganin qildim, Xudoyim, Qo’l ochdim qo’limdan
+              kelmaganiga.
+            </p>
+          </div>
+          <div class="audio-box">
+            <span class="audio-label">🎙️ She'r Audiosi:</span>
+            <audio controls>
+              <source src="audio/tashvish.mp3" type="audio/mpeg" />
+            </audio>
+          </div>
+        </article>
+      </main>
     </div>
 
     <footer>
-        <p>© She'riyat & Manga Estetikasi. Barcha huquqlar saqlangan.</p>
+      <p>© She'riyat & va Estetikasi. Barcha huquqlar saqlangan.</p>
     </footer>
-
-</body>
+  </body>
 </html>
